@@ -11,15 +11,14 @@ const SingleBookDetails = () => {
   const { id } = useParams();
   const idInt = parseInt(id);
   const book = books.find((book) => book.id === idInt);
-  console.log(id, book);
 
   const handleRead = () => {
-    saveBookforRead(id);
+    saveBookforRead(idInt);
     toast.success("Successfully added to read");
   };
 
   const handleWishlist = () => {
-    saveBookforWishlist(id);
+    saveBookforWishlist(idInt);
     toast.success("Successfully added on wishlist");
   };
 
