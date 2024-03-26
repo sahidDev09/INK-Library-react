@@ -4,7 +4,10 @@ import "react-toastify/dist/ReactToastify.css";
 import {
   saveBookforRead,
   saveBookforWishlist,
+  getStoredReadbook,
+  getStoredWishlistbook,
 } from "../../utility/LocalStorage";
+import { useState } from "react";
 
 const SingleBookDetails = () => {
   const books = useLoaderData();
@@ -12,14 +15,34 @@ const SingleBookDetails = () => {
   const idInt = parseInt(id);
   const book = books.find((book) => book.id === idInt);
 
+  const [isbookInRead, setIsbookInRead] = useState(
+    getStoredReadbook().includes(idInt)
+  );
+
+  const [isBookInWishlist, setIsbookIsWishlist] = useState(
+    getStoredWishlistbook().includes(idInt)
+  );
+
   const handleRead = () => {
-    saveBookforRead(idInt);
-    toast.success("Successfully added to read");
+    if (isbookInRead) {
+      toast.error("This book is already exist please try another one");
+    } else {
+      saveBookforRead(idInt);
+      setIsbookInRead(true);
+      toast.success("Successfully added to read");
+    }
   };
 
   const handleWishlist = () => {
-    saveBookforWishlist(idInt);
-    toast.success("Successfully added on wishlist");
+    if (isBookInWishlist) {
+      toast.error("This book already contain in wishlist.");
+    } else if (isbookInRead) {
+      toast.error("You already select this book as read");
+    } else {
+      saveBookforWishlist(idInt);
+      setIsbookIsWishlist(true);
+      toast.success("Successfully added on wishlist");
+    }
   };
 
   return (

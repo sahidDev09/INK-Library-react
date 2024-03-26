@@ -6,6 +6,7 @@ import {
   getStoredWishlistbook,
 } from "../../utility/LocalStorage";
 import SingleReadBook from "./SingleReadBook";
+import SingleWishbook from "./SingleWishbook";
 
 const ListedTab = () => {
   const books = useLoaderData();
@@ -78,6 +79,11 @@ const ListedTab = () => {
         role="tabpanel"
         className="tab-content bg-base-100 border-base-300 rounded-box p-6">
         Total wishlist book is : {wishbook.length}
+        <div>
+          {wishbook.map((wish, index) => (
+            <SingleWishbook key={index} wish={wish}></SingleWishbook>
+          ))}
+        </div>
       </div>
     </div>
   );
