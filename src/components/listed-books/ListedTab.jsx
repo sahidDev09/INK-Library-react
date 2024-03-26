@@ -5,13 +5,13 @@ import {
   getStoredReadbook,
   getStoredWishlistbook,
 } from "../../utility/LocalStorage";
+import SingleReadBook from "./SingleReadBook";
 
 const ListedTab = () => {
   const books = useLoaderData();
 
   const [rbook, setRbook] = useState([]);
   const [wishbook, setWishbook] = useState([]);
-
 
   // code for read book
 
@@ -54,11 +54,17 @@ const ListedTab = () => {
         role="tab"
         className="tab"
         aria-label="Read Book"
+        defaultChecked
       />
       <div
         role="tabpanel"
         className="tab-content bg-base-100 border-base-300 rounded-box p-6">
         Total read book : {rbook.length}
+        <div>
+          {rbook.map((sbook) => (
+            <SingleReadBook key={sbook.id} sbook={sbook}></SingleReadBook>
+          ))}
+        </div>
       </div>
 
       <input
@@ -67,7 +73,6 @@ const ListedTab = () => {
         role="tab"
         className="tab"
         aria-label="Wishlist Books"
-        checked
       />
       <div
         role="tabpanel"
