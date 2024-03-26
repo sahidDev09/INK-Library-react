@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "bookname": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "image": "https://i.ibb.co/gySwxhH/The-Great-Gatsby-Cover-1925-Retouched.jpg",
+    "review": "The Great Gatsby is a timeless classic written by F. Scott Fitzgerald. Set in the 1920s, it follows the life of Jay Gatsby and his pursuit of the American Dream. Through vibrant prose and vivid characters, Fitzgerald explores themes of wealth, love, and the emptiness of materialism. The novel provides a poignant commentary on the Jazz Age, revealing the dark underbelly of excess and superficiality. With its rich symbolism and evocative imagery, The Great Gatsby continues to captivate readers and remains a staple of American literature.",
+    "totalPages": 180,
+    "rating": 4.5,
+    "category": "Fiction",
+    "tags": ["romance", "drama", "classic"],
+    "publisher": "Scribner",
+    "yearOfPublishing": 1925
+  },
+  {
+    "id": 2,
+    "bookname": "The Da Vinci Code",
+    "author": "Dan Brown",
+    "image": "https://i.ibb.co/gzHp2Ds/9780307277671.jpg",
+    "review": "The Da Vinci Code, authored by Dan Brown, is a gripping thriller that takes readers on a rollercoaster ride of art, religion, and conspiracy. The story follows symbologist Robert Langdon as he unravels cryptic codes and ancient secrets while racing against time to solve a murder mystery that spans centuries. Brown masterfully weaves together history, mythology, and suspense, keeping readers on the edge of their seats until the very end. With its fast-paced plot and unexpected twists, The Da Vinci Code is a modern classic that challenges perceptions and sparks intellectual curiosity.",
+    "totalPages": 454,
+    "rating": 4.0,
+    "category": "Suspense",
+    "tags": ["mystery", "conspiracy", "thriller"],
+    "publisher": "Doubleday",
+    "yearOfPublishing": 2003
+  },
+  {
+    "id": 3,
+    "bookname": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "image": "https://i.ibb.co/3S5wLrn/to-kill-a-mockingbird-cover-t34.jpg",
+    "review": "To Kill a Mockingbird, written by Harper Lee, is a powerful and thought-provoking novel that addresses themes of racial injustice and moral growth. Set in the Deep South during the 1930s, the story is narrated by Scout Finch, a young girl who learns valuable lessons about empathy and compassion from her father, Atticus Finch. Through the trial of Tom Robinson, a black man falsely accused of raping a white woman, Lee sheds light on the pervasive racism and prejudice that plagued American society. With its timeless message of tolerance and understanding, To Kill a Mockingbird remains a literary masterpiece that resonates with readers of all ages.",
+    "totalPages": 281,
+    "rating": 4.8,
+    "category": "Drama",
+    "tags": ["racism", "coming-of-age", "classic"],
+    "publisher": "J. B. Lippincott & Co.",
+    "yearOfPublishing": 1960
+  },
+  {
+    "id": 4,
+    "bookname": "Harry Potter and the Sorcerer's Stone",
+    "author": "J.K. Rowling",
+    "image": "https://i.ibb.co/zRst2n8/fdea56fa-2703-47c1-8da8-70fc5382e1ea.jpg",
+    "review": "Harry Potter and the Sorcerer's Stone, written by J.K. Rowling, introduces readers to the magical world of Hogwarts School of Witchcraft and Wizardry. Follow the journey of a young boy, Harry Potter, as he discovers his true identity as a wizard and embarks on thrilling adventures with his friends, Ron and Hermione. Rowling's imaginative storytelling, richly drawn characters, and intricate world-building captivate readers of all ages. Through themes of friendship, courage, and the battle between good and evil, Harry Potter transcends its genre to become a beloved modern classic.",
+    "totalPages": 309,
+    "rating": 4.7,
+    "category": "Fantasy",
+    "tags": ["magic", "adventure", "wizardry"],
+    "publisher": "Bloomsbury Publishing",
+    "yearOfPublishing": 1997
+  },
+  {
+    "id": 5,
+    "bookname": "1984",
+    "author": "George Orwell",
+    "image": "https://i.ibb.co/jWrHMqC/1-6-QXMan-Bm7ws-Bg-Diagq-PH8-Q.png",
+    "review": "1984, penned by George Orwell, is a haunting dystopian novel that offers a chilling glimpse into a totalitarian society where individual freedom is nonexistent and truth is manipulated by those in power. Set in a future world dominated by omnipresent surveillance and propaganda, the story follows Winston Smith, a disillusioned citizen who rebels against the oppressive regime of Big Brother. Through Winston's journey, Orwell explores themes of censorship, surveillance, and the dangers of unchecked authoritarianism. 1984 serves as a stark warning against the erosion of civil liberties and remains a timeless cautionary tale.",
+    "totalPages": 328,
+    "rating": 4.6,
+    "category": "Science Fiction",
+    "tags": ["dystopia", "surveillance", "political"],
+    "publisher": "Secker & Warburg",
+    "yearOfPublishing": 1949
+  },
+  {
+    "id": 6,
+    "bookname": "Pride and Prejudice",
+    "author": "Jane Austen",
+    "image": "https://i.ibb.co/XtxM4wh/MV5-BMTA1-NDQ3-NTcy-OTNe-QTJe-QWpw-Z15-Bb-WU3-MDA0-Mz-A4-Mz-E-V1.jpg",
+    "review": "Pride and Prejudice, authored by Jane Austen, is a witty and enduring novel that explores themes of love, marriage, and social class in Regency-era England. At its heart is the spirited Elizabeth Bennet and the proud Mr. Darcy, whose initial prejudices against each other gradually give way to mutual admiration and affection. Austen's sharp social commentary and sparkling dialogue illuminate the complexities of human relationships and the importance of overcoming preconceptions. With its timeless appeal and memorable characters, Pride and Prejudice continues to enchant readers as one of the greatest romantic comedies in English literature.",
+    "totalPages": 279,
+    "rating": 4.9,
+    "category": "Romance",
+    "tags": ["regency", "satire", "classic"],
+    "publisher": "T. Egerton, Whitehall",
+    "yearOfPublishing": 1813
+  }
+]
