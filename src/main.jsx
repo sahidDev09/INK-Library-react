@@ -6,6 +6,9 @@ import Root from "./components/root/Root.jsx";
 import Home from "./components/Home.jsx";
 import SingleBookDetails from "./components/books/SingleBookDetails.jsx";
 import ListedBooks from "./components/listed-books/ListedBooks.jsx";
+import Trending from "./components/OptionalPages/Trending.jsx";
+import KidsZone from "./components/OptionalPages/KidsZone.jsx";
+import ReadPages from "./components/ReadtoPage/ReadPages.jsx";
 
 const router = createBrowserRouter([
   {
@@ -27,6 +30,18 @@ const router = createBrowserRouter([
         path: "/book/:id",
         element: <SingleBookDetails></SingleBookDetails>,
         loader: () => fetch("/books.json"),
+      },
+      {
+        path: "/trending",
+        element: <Trending></Trending>,
+      },
+      {
+        path: "/kids",
+        element: <KidsZone></KidsZone>,
+      },
+      {
+        path: "/readpages",
+        element: <ReadPages></ReadPages>,
       },
     ],
   },

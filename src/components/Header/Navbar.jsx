@@ -11,7 +11,15 @@ const Navbar = () => {
       </li>
 
       <li>
-        <NavLink to="pagesread">Pages to Read</NavLink>
+        <NavLink to="readpages">Pages to Read</NavLink>
+      </li>
+
+      <li>
+        <NavLink to="trending">Trending</NavLink>
+      </li>
+
+      <li>
+        <NavLink to="kids">Kids Zone</NavLink>
       </li>
     </>
   );
@@ -47,7 +55,7 @@ const Navbar = () => {
           </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1 text-md">{links}</ul>
+          <ul className="menu menu-horizontal px-1 text-sm">{links}</ul>
         </div>
         <div className="navbar-end flex gap-4">
           <a className="btn btn-success text-white">Sign In</a>

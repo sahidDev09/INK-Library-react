@@ -8,7 +8,7 @@ const Banner = () => {
         <h1 className=" md:text-6xl text-3xl font-semibold">
           Books to freshen up your bookshelf
         </h1>
-        <Link>
+        <Link to="/listedbook">
           <button className=" btn btn-success text-white">View The List</button>
         </Link>
       </div>
