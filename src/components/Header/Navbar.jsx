@@ -1,7 +1,32 @@
 import { Link, NavLink } from "react-router-dom";
+import "./Navbar.css"
 
 const Navbar = () => {
   const links = (
+    <div id="mainNav" className="flex items-center gap-2">
+      <li>
+        <NavLink to="/">Home</NavLink>
+      </li>
+      <li>
+        <NavLink to="/listedbook">Listed Books</NavLink>
+      </li>
+
+      <li>
+        <NavLink to="readpages">Pages to Read</NavLink>
+      </li>
+
+      <li>
+        <NavLink to="trending">Trending</NavLink>
+      </li>
+
+      <li>
+        <NavLink to="kids">Kids Zone</NavLink>
+      </li>
+
+    </div>
+  );
+
+  const links2 = (
     <>
       <li>
         <NavLink to="/">Home</NavLink>
@@ -21,6 +46,7 @@ const Navbar = () => {
       <li>
         <NavLink to="kids">Kids Zone</NavLink>
       </li>
+
     </>
   );
 
@@ -47,7 +73,7 @@ const Navbar = () => {
             <ul
               tabIndex={0}
               className="menu menu-sm text-lg dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
-              {links}
+              {links2}
             </ul>
           </div>
           <Link to="/" className="md:text-4xl text-3xl text-center font-bold">
