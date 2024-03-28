@@ -15,14 +15,12 @@ Welcome to Ink Library! This repository holds the source code for our online boo
 
 ## Example Screenshots
 
-![Screenshot 1](https://i.ibb.co/2qzxJnr/SCR-20240328-sytw.png)
-![Screenshot 2](https://i.ibb.co/tzzCLYL/SCR-20240328-szdi.png)
-![Screenshot 1](https://i.ibb.co/PxF7BtR/SCR-20240328-szla.png)
-![Screenshot 1](https://i.ibb.co/y44bJvg/SCR-20240328-szpv.png)
-![Screenshot 1](https://i.ibb.co/svG5qhx/SCR-20240328-sztf.png)
-![Screenshot 1](https://i.ibb.co/ygL3p2s/SCR-20240328-szxk.png)
-
-
+![Screenshot 1](https://i.ibb.co/k1WpnJY/SCR-20240328-sytw.png)
+![Screenshot 2](https://i.ibb.co/fpvZ2n2/SCR-20240328-szdi.png)
+![Screenshot 1](https://i.ibb.co/CwDSFcg/SCR-20240328-szla.png)
+![Screenshot 1](https://i.ibb.co/zSJx5qm/SCR-20240328-szpv.png)
+![Screenshot 1](https://i.ibb.co/tBTXNv7/SCR-20240328-sztf.png)
+![Screenshot 1](https://i.ibb.co/Pr3Wsy3/SCR-20240328-szxk.png)
 
 ## Technologies Used
 
@@ -30,4 +28,3 @@ Welcome to Ink Library! This repository holds the source code for our online boo
 - **Routing:** React Router DOM
 - **Styling:** CSS, Tailwind CSS, DaisyUI
 - **Markup Language:** JSX
-
