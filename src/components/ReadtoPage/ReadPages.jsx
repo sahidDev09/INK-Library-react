@@ -1,6 +1,6 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/prop-types */
-import react, { useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { useLoaderData } from "react-router-dom";
 import { getStoredReadbook } from "../../utility/LocalStorage";
 import { BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid } from "recharts";
@@ -51,7 +51,7 @@ const ReadPages = () => {
         margin={{ top: 20, right: 30, left: 20, bottom: 5 }}>
         <CartesianGrid strokeDasharray="3 3" />
         <XAxis dataKey="name" />
-        <YAxis />
+        <YAxis dataKey="pages" domain={[0, 500]} />
         <Bar
           dataKey="pages"
           shape={<TriangleBar />}
